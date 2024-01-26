@@ -1,3 +1,40 @@
 body {
     color: black;
+    font-family: 'Papyrus';
+}
+
+.unique-title{
+    font-family: 'Snell Roundhand'
+}
+
+.other-title{
+    font-family: 'URW Chancery L';
+}
+
+.food-title{
+    font-weight: 900;
+}
+
+.food-description{
+    font-weight: light;
+    font-style: italic;
+}
+
+.food-price{
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+}
+
+.my-image{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 10%;
+
+}
+
+.btn{
+    border-radius: 50%;
+    color:black;
 }
